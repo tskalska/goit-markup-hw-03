@@ -64,10 +64,12 @@ ul {
     align-items: center;
 }
 
+nav {
+    margin-left: 93px;
+}
 
 .site-nav {
     display: flex;
-    margin-left: 93px;
 }
 
 
@@ -134,7 +136,7 @@ h1 {
     text-align: center;
 }
 
-.hero>.container {
+.hero .container {
     padding: 200px 267px;
 }
 
@@ -188,6 +190,10 @@ button {
     margin-bottom: 50px;
 }
 
+
+.feature-description {
+    line-height: 24px;
+}
 /* Features-block styles */
 
 
@@ -228,12 +234,16 @@ button {
     text-align: center;
 }
 
+.team-member>.wrapper{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
 .member-name {
     font-weight: 500;
     font-size: 16px;
     color: var(--title-text-color);
-    
-    margin-top: 30;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -248,11 +258,9 @@ button {
 
 footer {
     background-color: var(--hero-footer-bg-color);
+    padding: 60px 15px;
 } 
 
-.page-footer {
-    padding: 60px 15px;
-}
 
 footer .logo {
     color: var(--primaty-wite-colour);
@@ -302,6 +310,8 @@ footer .contact-details {
     letter-spacing: 0.03em;
     background-color: var(--secondary-bg-colour);
 
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .filtеr-button:hover,
@@ -329,9 +339,9 @@ footer .contact-details {
     flex-wrap: wrap;
 }
 
-.project-link {
+.project-link{
     display: inline-block;
-    /* font-size: 0; */
+    font-size: 0;
 }
 
 .projects > .item {
