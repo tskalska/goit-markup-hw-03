@@ -134,11 +134,12 @@ h1 {
 .hero {
     background-color: var(--hero-footer-bg-color);
     text-align: center;
+    padding: 200px 200px;
 }
 
-.hero .container {
+/* .hero .container {
     padding: 200px 267px;
-}
+} */
 
 /* button styling */
 
@@ -155,15 +156,21 @@ button {
     padding: 10px 32px;
     min-width: 200px;
 
-}
-
-.btn-text {
     color: var(--primaty-wite-colour);
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
    
+
 }
+
+/* .btn-text {
+    color: var(--primaty-wite-colour);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+   
+} */
 
 /* Common section styles */
 
@@ -193,6 +200,8 @@ button {
 
 .feature-description {
     line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* Features-block styles */
 
